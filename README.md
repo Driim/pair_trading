@@ -8,6 +8,6 @@
 
 ## Установка пакетов
 ```bash
-conda install -y pandas jupyter matplotlib lxml beautifulsoup4 html5lib openpyxl requests sqlalchemy seaborn scipy statsmodels patsy scikit-learn pyarrow pytables numba yfinance xlrd
+conda install -y pandas jupyter matplotlib lxml beautifulsoup4 html5lib openpyxl requests sqlalchemy seaborn scipy statsmodels patsy scikit-learn pyarrow pytables numba yfinance xlrd backtrader pyfolio
 ```
 
