@@ -3,11 +3,11 @@
 # Настройка окружения
 - Установить [pyenv](https://github.com/pyenv/pyenv)
 - Используя pyenv установить miniconda3-latest
-- Активировать установленную версию Python `pyenv local miniconda3-latest`
+- Активировать установленную версию Python `miniconda3-3.11-25.1.1-0`
 - Установить необходимые пакеты
 
 ## Установка пакетов
 ```bash
-conda install -y pandas jupyter matplotlib lxml beautifulsoup4 html5lib openpyxl requests sqlalchemy seaborn scipy statsmodels patsy scikit-learn pyarrow pytables numba yfinance xlrd backtrader pyfolio
+conda install -c ml4t -c jiayi_anaconda -y pandas jupyter matplotlib lxml requests scipy statsmodels numba yfinance xlrd backtrader pyfolio-reloaded
 ```
 
